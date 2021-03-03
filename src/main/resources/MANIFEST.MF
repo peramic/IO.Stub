@@ -1,0 +1,15 @@
+Bundle-Name: Ha-VIS IO Test Device
+Bundle-SymbolicName: havis.device.test.io
+Bundle-Vendor: HARTING IT_SD
+Havis-Bundle: /OSGI-INF/havis.device.io.properties, /OSGI-INF/havis.device.test.io.properties
+Bundle-Version: 2.7.0
+Implementation-Version: 2.7
+Bundle-Activator: havis.device.test.io.osgi.Activator
+Bundle-ManifestVersion: 2
+Import-Package: 
+ havis.device.io,
+ havis.device.io.common,
+ havis.device.test.hardware,
+ org.osgi.framework;resolution:=optional,
+ org.osgi.util.tracker;resolution:=optional
+
